@@ -5,7 +5,12 @@ spring:
   application:
     name: lab-a01-app-service-registry
 
+  cloud:
+    config:
+      enabled: false
+
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+
